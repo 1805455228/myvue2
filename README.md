@@ -37,7 +37,7 @@ npm test
 ```
 
 # 运行效果
-![image]（https://github.com/1805455228/myvue2/blob/master/static/p_img/p1.jpg）
+![Image text]（https://github.com/1805455228/myvue2/blob/master/static/p_img/p1.jpg）
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
