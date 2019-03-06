@@ -5,6 +5,8 @@
     <button @click="register">注册</button>
     <router-link class="aHover" to="/login">登录</router-link>
     <router-link class="aHover" to="/register">注册</router-link>
+    <router-link class="aHover" to="/mailList">手机通讯录</router-link>
+    <router-link class="aHover" to="/solt">插槽</router-link>
   </div>
 </template>
 <script>
