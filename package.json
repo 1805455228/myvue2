@@ -15,6 +15,7 @@
   "dependencies": {
     "mint-ui": "^2.2.13",
     "vue": "^2.5.2",
+    "vue-fullcalendar": "^1.0.9",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

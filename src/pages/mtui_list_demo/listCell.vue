@@ -25,7 +25,7 @@
   //import { makePy } from "@/assets/js/pinying" //导入插件获取所有城市中文的大写首字母
 
   export default {
-    name: "home",
+    name: "mt-list",
     data (){
       return {
         dataList:[
@@ -59,7 +59,7 @@
         const height = document.getElementsByClassName('singer')[0].getBoundingClientRect().height
         this.fixBottom = this.playList.length > 0 ? height - 60 : height
       }
-    },
+    }
   }
 </script>
 

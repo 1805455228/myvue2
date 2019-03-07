@@ -6,7 +6,12 @@ import Login from '@/components/user/Login'
 import Register from '@/components/user/register'
 import MailList from '@/components/mailList/MailList'
 import SoltDemo from '@/components/mailList/soltDemo'
+import city from '@/pages/city/cityList'
+import listCell from '@/pages/mtui_list_demo/listCell'
 import Home from '@/pages/home'
+import fullcalendar from '@/pages/fullcalendar/fullcalendar'
+
+
 
 Vue.use(Router)
 
@@ -47,6 +52,21 @@ export default new Router({
       path: '/home',
       name: 'myhome',
       component: Home
+    },
+    {
+      path: '/city',
+      name: 'mycity',
+      component: city
+    },
+    {
+      path: '/listCell',
+      name: 'myCell',
+      component: listCell
+    },
+    {
+      path: '/fullcalendar',
+      name: 'myfullcalendar',
+      component: fullcalendar
     },
     {
       path: '*',//用于匹配404页面
